@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Soft Blue Neo-Brutalisme</title>
+    <link href="https://googleapis.com" rel="stylesheet">
+    <link rel="stylesheet" href="portofolio.css">
+</head>
+<body>
+
+    <!-- WELCOME SCREEN -->
+    <div id="welcome-screen">
+        <div class="welcome-box">
+            <h1 class="welcome-title">welcome to my portfolio website.</h1>
+            <button class="btn-enter" onclick="masukPortfolio()">Explore Site</button>
+        </div>
+    </div>
+
+    <!-- NAVBAR ATAS -->
+    <nav class="navbar">
+        <div class="nav-links">
+            <a href="#profil">Profil</a>
+            <a href="#biodata">Biodata</a>
+            <a href="#pendidikan">Pendidikan</a>
+            <a href="#skill">Skill</a>
+            <a href="#project">Project</a>
+            <a href="#kontak">Kontak</a>
+        </div>
+    </nav>
+
+    <!-- CONTAINER UTAMA -->
+    <div class="main-wrapper">
+        
+        <!-- 1. SECTION: PROFIL -->
+        <section id="profil" class="section-hero">
+            <div class="hero-flex-container">
+                <div class="hero-left-text">
+                    <p class="greeting-intro">hello, saya</p>
+                    <h1 class="nama-auliya">Auliya Rafika Putri</h1>
+                    <p class="role-title">pelajar / junior developer</p>
+                </div>
+                <div class="hero-right-photo">
+                    <div class="brutal-card card-blue-light animate-scroll">
+                        <div class="profile-photo-frame">
+                            <img src="profile-auliya.jpg" alt="Foto Profil">
+                            <span class="photo-placeholder"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="profil-desc">menciptakan website modern dengan tampilan elegan dan responsif, mengubah ide dan desain menjadi pengalaman digital yang menarik.</p>
+            <a href="#biodata" class="btn-brutal-blue" style="width: max-content; display: inline-block; margin-top: 10px;">Mulai Mengenal ↓</a>
+        </section>
+
+        <!-- 2. SECTION: BIODATA -->
+        <section id="biodata" class="section-gap">
+            <div class="brutal-card card-white">
+                <span class="badge-mini-tag color-blue">BIODATA</span>
+                <h2 class="large-title">Profil singkat</h2>
+                <p class="bio-intro-text">Saya adalah seorang siswa yang sedang menempuh pendidikan di bidang PPLG. saya sangat senang mempelajari hal-hal tentang pemrograman.</p>
+                <div class="chat-container-vertical">
+                    <div class="bubble-chat-brutal color-white-chat animate-scroll"><strong>Nama:</strong> Auliya</div>
+                    <div class="bubble-chat-brutal color-blue-chat animate-scroll"><strong>Usia:</strong> 16 Tahun</div>
+                    <div class="bubble-chat-brutal color-white-chat animate-scroll"><strong>Status:</strong> Pelajar Aktif</div>
+                    <div class="bubble-chat-brutal color-blue-chat animate-scroll"><strong>Hobby:</strong> Coding & Math</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. SECTION: PENDIDIKAN -->
+        <section id="pendidikan" class="section-gap">
+            <div class="brutal-card card-white">
+                <span class="badge-mini-tag color-blue">PENDIDIKAN</span>
+                <h2 class="large-title">Riwayat Pendidikan</h2>
+                <div class="chat-container-vertical">
+                    <div class="bubble-chat-brutal color-white-chat animate-scroll">
+                        <span class="chat-tag">MTS</span>
+                        <h3 class="school-name">MTS Assa'adah</h3>
+                        <p class="school-desc">Lulusan MTS Assa'adah, Angkatan 62..</p>
+                    </div>
+                    <div class="bubble-chat-brutal color-blue-chat animate-scroll">
+                        <span class="chat-tag" style="background-color: #2563eb;">SMK</span>
+                        <h3 class="school-name">SMK</h3>
+                        <p class="school-desc">SMK Informatika CBI - Jurusan PPLG.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. SECTION: SKILL -->
+        <section id="skill" class="section-gap">
+            <div class="brutal-card card-white">
+                <span class="badge-mini-tag color-blue">SKILL</span>
+                <h2 class="large-title">Keahlian</h2>
+                <div class="skill-grid">
+                    <div class="skill-item animate-scroll">
+                        <span class="skill-badge-tag tag-yellow">FRONTEND</span>
+                        <h3>HTML</h3>
+                    </div>
+                    <div class="skill-item animate-scroll">
+                        <span class="skill-badge-tag tag-pink">DEVELOPMENT</span>
+                        <h3>CSS</h3>
+                    </div>
+                    <div class="skill-item animate-scroll">
+                        <span class="skill-badge-tag tag-green">TOOLS</span>
+                        <h3>Microsoft word</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. SECTION: PROJECT -->
+        <section id="project" class="section-gap">
+            <div class="brutal-card card-white">
+                <span class="badge-mini-tag color-blue">PROJECT</span>
+                <h2 class="large-title">Project Pilihan</h2>
+                <div class="project-stack">
+                    <div class="project-item animate-scroll">
+                        <div class="project-image-box">
+                            <img src="lapor.jpg" alt="Preview E-LaporSarpras">
+                        </div>
+                        <span class="skill-badge-tag tag-purple">WEB APP</span>
+                        <h3>E-LaporSarpras Web App</h3>
+                        <a href="https://drive.google.com/drive/folders/1spDecO4h525UtJGqiZQv98d0NZq5F9Kn" target="_blank" class="btn-gdrive-brutal">Lihat di Google Drive</a>
+                    </div>
+                    <div class="project-item animate-scroll">
+                        <div class="project-image-box">
+                            <img src="panel-surya.jpg" alt="Preview Lampu panel surya">
+                        </div>
+                        <span class="skill-badge-tag tag-cyan">Miniatur</span>
+                        <h3>Lampu panel surya</h3>
+                        <a href="https://drive.google.com/drive/folders/1Nkva44F5vR60mqmzg1DCdSNaVeHroxMr" target="_blank" class="btn-gdrive-brutal">Lihat di Google Drive</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. SECTION: KONTAK -->
+        <section id="kontak" class="section-gap">
+            <div class="brutal-card card-white-contact">
+                <span class="badge-mini-tag color-blue-dark">KONTAK</span>
+                <ul class="social-list">
+                    <li><a href="mailto:awul0x1@gmail.com" target="_blank">• e-mail</a></li>
+                    <li><a href="https://wa.me/628818207591" target="_blank">• WhatsApp</a></li>
+                    <li><a href="https://instagram.com/1alys0c?stkn=MXg3bHZ3bGJoYzdqNA==" target="_blank">• Instagram</a></li>
+                </ul>
+                <form onsubmit="event.preventDefault(); alert('Pesan Anda terkirim!');">
+                    <div class="brutal-form-group"><label>Nama</label><input type="text" placeholder="Nama Anda" required></div>
+                    <div class="brutal-form-group"><label>Email</label><input type="email" placeholder="email@email.com" required></div>
+                    <div class="brutal-form-group"><label>Pesan</label><textarea rows="4" placeholder="Tuliskan pesan Anda..." required></textarea></div>
+                    <button type="submit" class="btn-brutal-blue" style="width: 100%;">Kirim Pesan</button>
+                </form>
+            </div>
+            <footer class="footer-text">✦ Powered by Netlify & Acode ✦</footer>
+        </section>
+
+    </div> <!-- Penutup <div class="main-wrapper"> -->
+
+    <script src="portofolio.js"></script>
+</body>
+</html>

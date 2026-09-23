@@ -1,0 +1,92 @@
+/* ========================================================
+   FULL NEO-BRUTALISM SOFT BLUE SYSTEM (100% COMPACT VERSION)
+   ======================================================== */
+* {
+    margin: 0; padding: 0; box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; scroll-behavior: smooth;
+}
+body { background-color: #f3f7fd; color: #000000; overflow-x: hidden; padding: 0 12px; }
+.main-wrapper { width: 100%; max-width: 440px; margin: 0 auto; padding: 95px 8px 20px 8px; }
+
+/* LAYOUT HERO TEKS KIRI & FOTO KANAN */
+.hero-flex-container { display: flex; justify-content: space-between; align-items: center; gap: 12px; width: 100%; margin-bottom: 16px; }
+.hero-left-text { flex: 3; text-align: left; }
+.hero-right-photo { flex: 3; max-width: 160px; }
+.hero-right-photo .brutal-card { padding: 10px; border-radius: 18px; box-shadow: 4px 4px 0px #000000; }
+.hero-right-photo .profile-photo-frame { height: 210px; border-radius: 12px; margin-bottom: 8px; box-shadow: 2px 2px 0px #000000; }
+.hero-right-photo .location-badge-box { padding: 6px 10px; border-radius: 10px; box-shadow: 2px 2px 0px #000000; }
+.hero-right-photo .location-title { font-size: 11px; }
+
+/* WELCOME SCREEN SYSTEM */
+#welcome-screen { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: #e0ebff; z-index: 9999; display: flex; justify-content: center; align-items: center; transition: opacity 0.4s ease, visibility 0.4s; }
+.welcome-box { background: #ffffff; border: 3px solid #000000; padding: 32px 24px; border-radius: 24px; text-align: center; max-width: 320px; width: 85%; box-shadow: 5px 5px 0px #000000; }
+.welcome-title { font-size: 19px; font-weight: 700; color: #000000; margin-bottom: 24px; line-height: 1.4; }
+.btn-enter { background: #2563eb; color: #ffffff; border: 3px solid #000000; padding: 12px 28px; border-radius: 16px; font-weight: 700; font-size: 13px; cursor: pointer; box-shadow: 3px 3px 0px #000000; }
+
+/* NAVBAR SYSTEM */
+.navbar { position: fixed; top: 16px; left: 16px; right: 16px; background: #ffffff; border: 3px solid #000000; border-radius: 20px; padding: 14px 10px; z-index: 1000; box-shadow: 4px 4px 0px #000000; max-width: 440px; margin: 0 auto; }
+.nav-links { display: flex; justify-content: space-around; width: 100%; }
+.nav-links a { color: #000000; text-decoration: none; font-size: 12px; font-weight: 700; }
+
+/* KARTU UTAMA NEO-BRUTALISME */
+.brutal-card { border: 3px solid #000000; border-radius: 24px; padding: 24px; box-shadow: 6px 6px 0px #000000; position: relative; box-sizing: border-box; }
+.card-white { background-color: #ffffff; }
+.card-white-contact { background-color: #fcfbf7; border: 3px solid #000000; border-radius: 24px; padding: 24px; box-shadow: 6px 6px 0px #000000; }
+.card-blue-light { background-color: #dbeafe; }
+.badge-mini-tag { display: inline-block; font-size: 10px; font-weight: 800; border: 2px solid #000000; border-radius: 6px; padding: 3px 12px; margin-bottom: 12px; }
+.color-blue { background-color: #38bdf8; color: #000000; }
+.color-blue-dark { background-color: #000000; color: #ffffff; border-radius: 4px; }
+
+/* PROFIL HEADER & TEXT AREA */
+.section-hero { padding: 15px 4px 10px; }
+.greeting-intro { font-size: 16px; font-weight: 700; color: #000000; }
+.nama-auliya { font-family: 'Playfair Display', serif; font-size: 54px; font-weight: 700; color: #000000; margin: -6px 0 2px 0; }
+.role-title { font-size: 11px; font-weight: 800; text-transform: uppercase; color: #000000; background: #e0f2fe; width: max-content; padding: 4px 12px; border-radius: 8px; margin-bottom: 14px; border: 2px solid #000000; }
+.profil-desc { font-size: 13px; color: #374151; line-height: 1.6; margin-bottom: 24px; font-weight: 500; }
+.profile-photo-frame { width: 100%; height: 200px; background-color: #ffffff; border: 3px solid #000000; border-radius: 20px; overflow: hidden; display: flex; justify-content: center; align-items: center; position: relative; }
+.profile-photo-frame img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.photo-placeholder { font-size: 12px; color: #94a3b8; font-weight: 600; position: absolute; }
+.location-badge-box { background-color: #ffffff; border: 3px solid #000000; border-radius: 16px; padding: 12px 16px; }
+.badge-mini-text { font-size: 10px; font-weight: 800; color: #64748b; }
+.location-title { font-size: 15px; font-weight: 800; color: #000000; margin-top: 2px; }
+.section-gap { margin-top: 40px; }
+.large-title { font-size: 24px; font-weight: 800; color: #000000; margin-bottom: 14px; letter-spacing: -0.5px; }
+.large-title-contact { font-size: 26px; font-weight: 800; color: #000000; letter-spacing: -0.5px; margin-bottom: 16px; }
+
+/* BUBBLE CHAT SEJAJAR KEBATAH SYSTEM */
+.chat-container-vertical { display: flex; flex-direction: column; gap: 14px; width: 100%; margin-top: 10px; }
+.bubble-chat-brutal { padding: 14px 18px; font-size: 13px; border: 2.5px solid #000000; border-radius: 16px; width: 100%; box-shadow: 3px 3px 0px #000000; font-weight: 500; }
+.color-white-chat { background-color: #ffffff; color: #000000; }
+.color-blue-chat { background-color: #e0f2fe; color: #0369a1; }
+.chat-tag { display: inline-block; font-size: 10px; font-weight: 800; background: #0284c7; color: white; padding: 2px 8px; border: 2px solid #000000; border-radius: 6px; margin-bottom: 6px; }
+.school-name { font-size: 14px; font-weight: 700; margin-bottom: 2px; color: #000000; }
+.school-desc { font-size: 12px; color: #374151; line-height: 1.4; }
+
+/* SKILL & PROJECT PANEL */
+.skill-grid { display: flex; flex-direction: column; gap: 14px; }
+.skill-item { background: #ffffff; padding: 18px; border-radius: 18px; border: 2.5px solid #000000; box-shadow: 3px 3px 0px #000000; }
+.skill-badge-tag { font-size: 9px; font-weight: 800; padding: 2px 8px; border-radius: 6px; border: 2px solid #000000; display: inline-block; margin-bottom: 8px; }
+.tag-yellow { background: #fef08a; color: #000000; }
+.tag-pink { background: #fbcfe8; color: #000000; }
+.tag-green { background: #bbf7d0; color: #000000; }
+.tag-purple { background: #c084fc; color: #000000; }
+.tag-cyan { background: #67e8f9; color: #000000; }
+.project-stack { display: flex; flex-direction: column; gap: 16px; }
+.project-item { background: #ffffff; border-radius: 18px; padding: 18px; border: 2.5px solid #000000; box-shadow: 3px 3px 0px #000000; }
+.project-image-box { width: 100%; height: 150px; background-color: #e2e8f0; border-radius: 12px; margin-bottom: 12px; overflow: hidden; border: 2px solid #000000; display: flex; justify-content: center; align-items: center; }
+.project-image-box img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.btn-gdrive-brutal { display: block; background-color: #2563eb; color: #ffffff; text-align: center; text-decoration: none; padding: 10px; border-radius: 12px; font-size: 12px; font-weight: 700; border: 2px solid #000000; box-shadow: 2px 2px 0px #000000; margin-top: 12px; }
+
+/* MASTER BRUTAL FORM INPUT */
+.social-list { list-style: none; margin-bottom: 24px; }
+.social-list li { font-size: 14px; font-weight: 700; color: #000000; margin-bottom: 8px; }
+.brutal-form-group { margin-bottom: 16px; display: flex; flex-direction: column; }
+.brutal-form-group label { font-size: 12px; font-weight: 800; color: #000000; margin-bottom: 6px; }
+.brutal-form-group input, .brutal-form-group textarea { border: 2.5px solid #000000; border-radius: 12px; padding: 12px; font-size: 13px; outline: none; background: #ffffff; color: #000000; font-weight: 500; }
+
+/* MASTER BUTTON ACTION EFFECT */
+.btn-brutal-blue { display: block; background-color: #2563eb; color: #ffffff; text-align: center; text-decoration: none; border: 2.5px solid #000000; padding: 12px; border-radius: 14px; font-size: 14px; font-weight: 700; box-shadow: 4px 4px 0px #000000; cursor: pointer; }
+.btn-brutal-blue:active, .btn-gdrive-brutal:active, .btn-enter:active { transform: translate(2px, 2px); box-shadow: 1px 1px 0px #000000; }
+.footer-text { font-size: 11px; color: #64748b; text-align: center; margin-top: 32px; padding-bottom: 20px; font-weight: 600; }
+.animate-scroll { opacity: 0; transform: translateY(12px); transition: all 0.5s ease-out; }
+.animate-scroll.visible { opacity: 1; transform: translateY(0); }
